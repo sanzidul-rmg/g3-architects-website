@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 
 .work-sans-font {
@@ -9,34 +7,28 @@
   font-weight: 400;
   font-style: normal;
 }
-/* h3 style */
-.brand{
-    margin: 30px;
-}
-/* shared styles */
+/* Shared styles */
 .display-flex{
     display: flex;
 }
-/* dark-02 */
+/* h3 */
+.brand{
+    margin: 30px;
+}
 .text-grey{
     color: #424242;
 }
-/* dark-3 */
-.text-light-grey{
-    color: #727272;
-}
+/* header styles */
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
-/* header related styles */
-
-/* navbar related styles */
+/* navbar styles */
 .navbar{
     justify-content: space-between;
 }
 .nav-item{
-     list-style: none;
-     margin: 30px;
+    list-style: none;
+    margin: 30px;
 }
 .nav-link{
     text-decoration: none;
