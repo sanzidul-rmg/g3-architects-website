@@ -95,10 +95,35 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
-.feature-title{
+      section.-title{
     font-size: 2.8rem;
     font-weight: 500px;
 }
+.teams{
+    margin: 0 auto;
+}
+
 #Quick-list{
     font-weight: 500px;
+}
+/* responsive and media query */
+@media screen and (max-width: 576px) {
+    .navbar, 
+    .nav-link,
+    .teams{
+        flex-direction: column;
+    }
+   .team-img-container{
+    grid-template-columns: repeat(1,1fr);
+   } 
+   .our-features{
+     margin-left: 20px;
+   }
+}
+/* medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+   
 }
